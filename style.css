@@ -72,17 +72,20 @@ button {
 @media (max-width:767px){
     .card {
         display: inline-flex !important;
-        width: 380px;
+        width: -webkit-fill-available;
         padding: 10px;
         background: #e7c188 !important;
         border-radius: 20px;
-        margin: 10px ;
+        margin: 10px;
         height: auto;
     }
     .he h1 {
         font-weight: 800;
         font-size: 29px;
         font-family: cursive;
+    }
+    div#details-container{
+        padding: 20px;
     }
 }
 
